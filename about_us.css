@@ -1,0 +1,96 @@
+body{background-color: rgb(198, 228, 154);
+  color: black;
+  font-style: italic;
+
+  
+ }
+ .container p{
+  font-size: xx-large;
+ }
+
+ .container{
+  margin-left: 2vw;
+  margin-right: 2vw;
+
+
+ }
+ .container h1{
+  font-size: 5vh;
+ }
+
+
+
+
+
+ header {
+  background-color:rgb(5, 62, 4);
+  color: #fff;
+  /* padding: 20px; */
+  text-align: center;
+}
+.logobox img{
+  height: 100px;
+}
+
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.paragraph p{
+  font-size: 20px;
+}
+
+/* CSS styles for the main section */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+}
+.feature {
+  display: inline-block;
+  width: 350px;
+  margin: 50px;
+  border: #24262b solid;
+  padding:10vh ;
+}
+.feature p{
+  font-style: italic;
+}
+.feature h3{
+  font-family: 'Courier New', Courier, monospace;
+}
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.head a{
+  text-decoration: none;
+  color: black;
+
+}
+li{
+  text-decoration: none;
+}
+.head button{
+  font-size:larger;
+  border-radius: 1vh;
+  padding: 2vh;
+  width: 18vw;
+
+}
+.head a{
+  text-decoration: none;
+  
+}

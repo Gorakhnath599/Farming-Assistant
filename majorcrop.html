@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="logoutcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <div class="logobox">
+        <img src="logo1.jpg" alt="logo">
+    </div>
+    <div class="logout">
+      <a href="user_logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
+      </div>
+        <h1>Farming Assistance</h1>
+        <p>Get the support you need for successful farming</p>
+        <div class="head">
+            <button><a href="firstpage.php">home</a></button>
+            <button><a href="about_us.html">About Us</a></button>
+            <button><a href="majorcrop.html">Major Crops</a></button>
+          
+      <button><a href="Appointment_page.php">Book Appointment</a></button>
+      <button><a href="contactus.php">Contact us</a></button>
+        </div>
+      </header>
+
+
+    <div class="servicecontainer">
+          
+        <div class="img">
+          <img src="wheat.jpeg" alt="wheat">
+          <h1>Wheat</h1>
+          <button><a href="wheatinfo.html">More info</a></button>
+          
+        </div>
+    
+        <div class="img">
+          <img src="maize.jpeg" alt="Maize">
+          <h1>Maize</h1>
+          <button><a href="maizeinfo.html">More info</a></button>
+        </div>
+    
+        <div class="img">
+          <img src="rice.jpeg" alt="Rice">
+          <h1>Rice</h1>
+          <button><a href="riceinfo.html">More info</a></button>
+        </div>
+
+
+
+        <div class="img">
+            <img src="pulses.jpeg" alt="Pulses">
+            <h1>Pulses</h1>
+            <button><a href="pulsesinfo.html">More info</a></button> 
+          </div>
+      
+          <div class="img">
+            <img src="jute.jpeg" alt="Jute">
+            <h1>Jute</h1>
+            <button><a href="juteinfo.html">MOre info</a></button>
+          </div>
+      
+          <div class="img">
+            <img src="sugarcane.jpeg" alt="Sugarcane">
+            <h1>Sugarcane</h1>
+            <button><a href="sugarcaneinfo.html">More info</a></button>
+          </div>
+        </div>
+    
+      </div>
+
+      <style>
+        body{
+          overflow-x: hidden;
+        }
+        .servicecontainer{
+          display:flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          width: 100vw;
+          height: 70vh;
+        }
+        .img{
+          border: black solid;
+          height: 100%;
+          width: 33%;
+          overflow: hidden;
+        }
+      .img img{
+        height: 68%;
+        width: 100%;
+        transition: all ease 0.4s;
+        
+
+      }
+      .img img:hover{
+        transform: scale(1.1);
+      }
+      .img h1{
+        margin-left: 1vw;
+        font-size:4vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 3vh;
+      }
+      .img button{
+        height:10%;
+        width:20%;
+        
+
+        cursor: pointer;
+        margin-left: 0.5vw;  
+        background-color: rgb(248, 163, 103);
+        border: #fff;
+        transition: all ease 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+
+      }
+        
+      .img button a{
+        text-decoration: none;
+        color: black;
+        }
+
+      .img button:hover{
+        transform: scale(1.1);
+
+      }
+      .head a{
+    text-decoration: none;
+    color: black;
+
+  }
+      header {
+        background-color:rgb(5, 62, 4);
+          color: #fff;
+          /* padding: 20px; */
+          text-align: center;
+        }
+        .logobox img{
+        height: 100px;
+        }
+
+        h1 {
+          font-size: 24px;
+          margin: 0;
+        }
+
+        p {
+          font-size: 16px;
+          margin: 10px 0;
+        }
+        section {
+          padding: 20px;
+          text-align: center;
+        }
+
+        h2 {
+          font-size: 20px;
+          margin: 0;
+        }
+        .feature {
+          display: inline-block;
+          width: 350px;
+          margin: 50px;
+          border: #24262b solid;
+          padding:10vh ;
+      }
+        .feature p{
+          font-style: italic;
+        }
+        .feature h3{
+          font-family: 'Courier New', Courier, monospace;
+        }
+        .head {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          
+        }
+        .head a{
+        text-decoration: none;
+        color: black;
+      }
+        li{
+          text-decoration: none;
+        }
+        .head button{
+          font-size:larger;
+          border-radius: 1vh;
+          padding: 2vh;
+          width: 18vw;
+
+        }
+      </style>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(9, 68, 9);
+
+}
+
+
+form{
+    border-radius: 3%;
+    height: 60vh;
+    width: 30vw;
+    padding: 3vh;
+}
+checkbox{
+    width: fit-content;
+}
+form input{
+    height: 30%;
+    width: 90%;
+    border-color: aquamarine;
+}
+.btn input{
+    background: green;
+    padding: 1vh;
+    border-color:black
+}
+.textbox input{
+    padding: 2vh;
+
+}
+.checkbox1{
+    width: 100%;
+    float: left;
+    display: flex;
+    padding: 1vh;
+    /* justify-content: center; */
+    
+}
+.forgetbox a {
+    color: green;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.checkbox1 input{
+    width: 10%;
+    float: left;
+}
+.signup p a{
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+    
+.head{
+    padding: 1vh;
+}

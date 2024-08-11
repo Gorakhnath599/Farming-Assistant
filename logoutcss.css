@@ -1,0 +1,9 @@
+.logout{
+    margin-left: 90vw;
+    background-color: #24262b;
+    border-radius: 10px;
+    
+  }
+  .logout a i{
+    color: green;
+  }

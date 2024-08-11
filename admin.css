@@ -1,0 +1,118 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    background-color: rgb(5, 62, 4);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logobox img {
+    height: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Navigation bar styles */
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head button {
+    font-size: larger;
+    border-radius: 1vh;
+    padding: 2vh;
+    width: 18vw;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.head button:hover {
+    background-color: #0056b3;
+}
+
+/* Logout button styles */
+.logout a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.logout a:hover {
+    color: #ddd;
+}
+
+/* Content container styles */
+.content {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Feature box styles */
+.feature {
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature p {
+    font-style: italic;
+}
+
+.feature h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .head {
+        flex-direction: column;
+    }
+
+    .head button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+/* Font Awesome styles */
+.fa-right-from-bracket::before {
+    content: "\f105";
+    font-family: "Font Awesome 6 Solid";
+}
+
+/* Optional: Add your own custom styles here */
+
