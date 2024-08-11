@@ -37,7 +37,7 @@ if(!isset($_SESSION['username'])) {
       <button><a href="majorcrop.html">Major Crops</a></button>
 
       <button><a href="Appointment_page.php">Book Appoinment</a></button>
-      <!-- <button><a href="contactus.php">Contact us</a></button> -->
+      <button><a href="contactus.php">Contact us</a></button>
 
     </div>
     </button>
